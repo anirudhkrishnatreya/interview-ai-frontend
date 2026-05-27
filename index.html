@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EasyHiring — Enterprise Voice Interview Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages Routing Fallback
+    (function(l) {
+      if (l.search[1] === 'p') {
+        var decoded = l.search.slice(1).split('&').map(function(s) {
+          return s.replace(/~and~/g, '&')
+        }).reduce(function(r, s) {
+          var name = s.split('=')[0];
+          var value = s.split('=')[1];
+          r[name] = value;
+          return r;
+        }, {});
+        if (decoded.p !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + (decoded.p || '') +
+            (decoded.q ? ('?' + decoded.q) : '') +
+            l.hash
+          );
+        }
+      }
+    }(window.location));
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
