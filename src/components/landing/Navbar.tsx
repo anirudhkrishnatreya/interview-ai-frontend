@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-8 h-8 ">
-              <img src="/logo.png" alt="EasyHiring Logo" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="EasyHiring Logo" />
             </div>
             <span className="font-bold text-xl text-slate-900 tracking-tight">EasyHiring</span>
           </Link>

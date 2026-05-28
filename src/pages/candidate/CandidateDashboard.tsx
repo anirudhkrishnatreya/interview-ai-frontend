@@ -65,7 +65,7 @@ export function CandidateDashboard() {
         position: 'sticky', top: 0, zIndex: 10,
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <img src="/logo.png" alt="EasyHiring Logo" style={{ width: 30, height: 30, objectFit: 'contain' }} />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="EasyHiring Logo" style={{ width: 30, height: 30, objectFit: 'contain' }} />
           <span style={{ fontFamily: 'var(--font-display)', fontSize: 15, fontWeight: 700, color: 'var(--text-primary)' }}>EasyHiring</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>

@@ -63,7 +63,7 @@ export default function LoginPage() {
           
           {/* Logo */}
           <Link to="/" className="inline-flex items-center gap-3 mb-10 group">
-            <img src="/logo.png" alt="EasyHiring Logo" className="w-10 h-10 object-contain drop-shadow-sm group-hover:scale-105 transition-transform" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="EasyHiring Logo" className="w-10 h-10 object-contain drop-shadow-sm group-hover:scale-105 transition-transform" />
             <span className="font-bold text-2xl text-slate-900 tracking-tight">EasyHiring</span>
           </Link>
 

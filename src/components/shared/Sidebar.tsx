@@ -43,7 +43,7 @@ export function Sidebar({ navItems, title, subtitle }: SidebarProps) {
       {/* Logo */}
       <div style={{ padding: '24px 20px 20px', borderBottom: '1px solid var(--border)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 4 }}>
-          <img src="/logo.png" alt="EasyHiring Logo" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="EasyHiring Logo" style={{ width: 32, height: 32, objectFit: 'contain' }} />
           <div>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 15, fontWeight: 700, color: 'var(--text-primary)' }}>
               EasyHiring

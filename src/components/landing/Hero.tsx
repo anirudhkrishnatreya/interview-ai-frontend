@@ -74,7 +74,7 @@ export default function Hero() {
             <div className="rounded-lg overflow-hidden border border-slate-200 bg-white">
               <div className="overflow-hidden">
                 <img
-                  src="/mockup.png"
+                  src={`${import.meta.env.BASE_URL}mockup.png`}
                   alt="EasyHiring Dashboard Mockup"
                   className="w-full h-auto object-cover opacity-90 -mt-[10%] md:-mt-[20%]"
                 />
